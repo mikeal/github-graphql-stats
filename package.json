@@ -1,0 +1,23 @@
+{
+  "name": "github-graphql-stats",
+  "version": "0.1.0",
+  "description": "Node libraries for pulling stats out of GitHub's GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apollo-client": "^1.4.2",
+    "csv-write-stream": "^2.0.0",
+    "graphql-tag": "^2.4.0",
+    "graphql.js": "^0.4.17",
+    "lodash.uniq": "^4.5.0",
+    "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
